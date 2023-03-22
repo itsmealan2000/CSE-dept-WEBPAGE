@@ -1,6 +1,12 @@
 .navbar{
     padding: 0%;
 }
+.navbar-nav > li > a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .container-fluid{
     background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(176,39,45,1) 100%);
     font-family: 'Roboto', sans-serif ;
