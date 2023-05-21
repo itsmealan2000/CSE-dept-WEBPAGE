@@ -9,6 +9,10 @@ import { MainlogoComponent } from './units/mainlogo/mainlogo.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './units/carousel/carousel.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
+import { VmComponent } from './pages/vm/vm.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -17,7 +21,8 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
     NavbarComponent,
     MainlogoComponent,
     CarouselComponent,
-    HomepageComponent
+    HomepageComponent,
+    VmComponent,
   ],
   imports: [
     BrowserModule,
