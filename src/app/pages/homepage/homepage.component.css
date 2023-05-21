@@ -1,50 +1,18 @@
-.btn-container{
-    margin-top: 20px;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 50%;
-    height: 50%;
-}
-button{
+div{
+  color: white;
+  width: 100%;
+  font-family: 'Noto Sans JP';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+ 
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background: linear-gradient(to right, rgba(189, 195, 199, 0.5), rgba(44, 62, 80, 0.5));
 
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    background-color: #000000;
-    cursor: pointer;
-    transition: 0.3s;
 }
-::ng-deep .popover {
-    color: red;
-    width: auto !important;
-    max-width:600px !important;
-    
-  }
-::ng-deep .popover-body{
-    /* width: 700%; */
-    height: 100%;
-    text-align: left;
-  }
-  --bs-popover-end{
-    width: 100%;
-  }
-
-  div{
-    color: #2f6a80;
-    font-family: 'Noto Sans JP';
-    font-size: 20px;
-    text-align: left;
-    font-weight: 600;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-  }
