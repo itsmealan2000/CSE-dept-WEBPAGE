@@ -36,3 +36,15 @@ button{
   --bs-popover-end{
     width: 100%;
   }
+
+  div{
+    color: #2f6a80;
+    font-family: 'Noto Sans JP';
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
