@@ -1,0 +1,27 @@
+.text{
+    background:rgb(223,227,230);
+    width: 100%;
+    height: 100%;
+}
+
+.vision{
+    width: fit-content;
+    height:fit fit-content;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.15);
+    text-transform: uppercase;
+}
+
+.mission{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.15) ;
+
+}
