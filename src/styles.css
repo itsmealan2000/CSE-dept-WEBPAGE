@@ -2,6 +2,9 @@
 body {
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Inter',sans-serif;
 }
+.app-homepage{
+    overflow: hidden;
+  }
