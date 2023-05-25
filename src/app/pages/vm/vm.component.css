@@ -10,7 +10,7 @@
     border-color: #b80000;
 }
 .text2{
-  position: relative;
+  position: absolute;
   padding: 4px;
   background:rgb(236, 236, 236);
   display: flex;

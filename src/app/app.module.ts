@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './units/carousel/carousel.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { VmComponent } from './pages/vm/vm.component';
+import { PoComponent } from './pages/po/po.component';
 
 
 
@@ -23,6 +24,7 @@ import { VmComponent } from './pages/vm/vm.component';
     CarouselComponent,
     HomepageComponent,
     VmComponent,
+    PoComponent,
   ],
   imports: [
     BrowserModule,
