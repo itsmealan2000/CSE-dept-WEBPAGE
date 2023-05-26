@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { VmComponent } from './pages/vm/vm.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { PoComponent } from './pages/po/po.component';
+import { PeopsoComponent } from './pages/peopso/peopso.component';
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   { path: 'vm', component: VmComponent},
   { path: 'po', component: PoComponent},
+  { path: 'peopso',component: PeopsoComponent},
 ];
 
 @NgModule({

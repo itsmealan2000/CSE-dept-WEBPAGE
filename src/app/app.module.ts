@@ -11,6 +11,7 @@ import { CarouselComponent } from './units/carousel/carousel.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { VmComponent } from './pages/vm/vm.component';
 import { PoComponent } from './pages/po/po.component';
+import { PeopsoComponent } from './pages/peopso/peopso.component';
 
 
 
@@ -25,6 +26,7 @@ import { PoComponent } from './pages/po/po.component';
     HomepageComponent,
     VmComponent,
     PoComponent,
+    PeopsoComponent,
   ],
   imports: [
     BrowserModule,
