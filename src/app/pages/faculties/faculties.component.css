@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.card-text {
+  
+    font-family: 'Righteous', cursive;
+  }
+  .card {
+    transition: transform 0.3s;
+    margin-top: 20px;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    /* Add any other desired styling for the pop-up effect */
+  }
+
+  
