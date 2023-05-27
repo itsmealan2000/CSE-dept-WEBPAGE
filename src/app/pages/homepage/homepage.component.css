@@ -1,7 +1,6 @@
-
-div{
+.about{
   color: white;
-  width: 100%;
+  width: 50%;
   font-family: 'Noto Sans JP';
   font-size: 20px;
   text-align: center;
@@ -10,10 +9,31 @@ div{
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
- 
+  margin-left: 50%;
+
   position: absolute;
   top: 50%;
   z-index: 1;
   background: linear-gradient(to right, rgba(189, 195, 199, 0.5), rgba(44, 62, 80, 0.5));
 
+}
+.com{
+  color: white;
+  width: 40%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 65px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  z-index: 1;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0.319), rgba(255, 255, 255, 0.664)); */
+
+}
+p{
+  padding: 0px;
+  margin: 0px;
+  color: orangered;
 }
