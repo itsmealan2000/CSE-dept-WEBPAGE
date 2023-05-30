@@ -30,11 +30,24 @@ h1{
   font-family: 'Bebas Neue', sans-serif;
 }
 .v{
-  color: #fff;
+  
+    background-image: linear-gradient(to right,#36454F , #224e7d);
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome support */
+    color: transparent;
+    font-weight: 600;
+  
+  
+  
 }
 
 .m{
-  color: #fff;
+  background-image: linear-gradient(to right,#224e7d , #36454F);
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome support */
+    color: transparent;
+    font-weight: 600;
+  
 }
 .vision{
   background: rgba( 255, 255, 255, 0.25 );
