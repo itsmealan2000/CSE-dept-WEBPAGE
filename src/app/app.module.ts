@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardsComponent } from './units/cards/cards.component';
@@ -12,6 +13,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { VmComponent } from './pages/vm/vm.component';
 import { PoComponent } from './pages/po/po.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
+import { PeopsoComponent } from './pages/peopso/peopso.component';
 
 
 
@@ -27,6 +29,7 @@ import { FacultiesComponent } from './pages/faculties/faculties.component';
     VmComponent,
     PoComponent,
     FacultiesComponent,
+    PeopsoComponent,
   ],
   imports: [
     BrowserModule,
