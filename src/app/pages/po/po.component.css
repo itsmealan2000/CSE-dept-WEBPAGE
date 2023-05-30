@@ -2,3 +2,27 @@
     padding-top: 80px;
     margin: 25px;
 }
+.h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #224e7d;
+}
+
+.main{
+    background: linear-gradient(
+      217deg,
+      rgba(96, 150, 180, 1),
+      rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
+    width: auto;
+    height: auto;
+}
+.text{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height:auto;
+}

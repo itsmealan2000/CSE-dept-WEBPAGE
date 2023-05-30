@@ -2,24 +2,78 @@
   position: absolute;
   padding-top: 150px;
   width: 50%;
-  height: 540px;
-  background-color: red;
+  height: 750px;
+  left:50px;
+  /* background-color: #6096B4; */
 }
 .text2{
   overflow: hidden;
-  position: relative;
-  background-color: green;
+  position: relative  ;
+  top: 250px;
+  right:50px;
+  
+
+  /* background-color:#6096B4; */
   display: flex;
   flex-direction:column;
   padding-top: 150px;
   margin-left: 50%;
   width: 50%;
-  height: 540px;
+  height: 750px;
 }
 h1{
   display: flex;
   justify-content: center;
 }
 .head{
-  color: chartreuse;
+  color: #224e7d;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.v{
+  
+    background-image: linear-gradient(to right,#36454F , #224e7d);
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome support */
+    color: transparent;
+    font-weight: 600;
+  
+  
+  
+}
+
+.m{
+  background-image: linear-gradient(to right,#224e7d , #36454F);
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome support */
+    color: transparent;
+    font-weight: 600;
+  
+}
+.vision{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 200px;
+
+}
+
+.mission{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height:250px;
+}
+.main{
+  background: linear-gradient(
+      217deg,
+      rgba(96, 150, 180, 1),
+      rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
 }
