@@ -1,14 +1,26 @@
 .navbar{
     padding: 0%;
+    height: 100px;
+    background: linear-gradient(270deg, #6096B4 0%, #93BFCF 100%);
 }
 .navbar-nav > li > a {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.logo{
+    width: 200px;
+    /* height: 100px; */
+    margin: 0px;
+    padding: 0px;
+}
 .container-fluid{
     background: linear-gradient(270deg, #6096B4 0%, #93BFCF 100%);
     font-family: 'Roboto', sans-serif ;
     margin: 0px;
+    padding: auto;
+}
+.position-fixed{
+    width: 100vw;
+    height: auto;
 }
