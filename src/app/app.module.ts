@@ -13,6 +13,9 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { VmComponent } from './pages/vm/vm.component';
 import { PoComponent } from './pages/po/po.component';
 import { AluminiComponent } from './pages/alumini/alumini.component';
+import { FacultiesComponent } from './pages/faculties/faculties.component';
+import { PeopsoComponent } from './pages/peopso/peopso.component';
+
 
 
 
@@ -28,6 +31,8 @@ import { AluminiComponent } from './pages/alumini/alumini.component';
     VmComponent,
     PoComponent,
     AluminiComponent,
+    FacultiesComponent,
+    PeopsoComponent,
   ],
   imports: [
     BrowserModule,

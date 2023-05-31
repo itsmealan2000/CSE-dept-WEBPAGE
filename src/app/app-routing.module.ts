@@ -13,7 +13,6 @@ const routes: Routes = [
   { path: 'faculties', component: FacultiesComponent},
   { path: 'peopso',component: PeopsoComponent},
   { path: 'alumini',component: AluminiComponent},
-
 ];
 
 @NgModule({
