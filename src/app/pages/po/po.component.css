@@ -33,7 +33,7 @@
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     /* height: 200px; */
-    background-image: linear-gradient(to right,#36454F , #224e7d);
+    background-image: linear-gradient(to right,#36454F , #000000);
     background-clip: text;
     -webkit-background-clip: text; 
     color: transparent;
