@@ -14,6 +14,7 @@ import { VmComponent } from './pages/vm/vm.component';
 import { PoComponent } from './pages/po/po.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
 import { PeopsoComponent } from './pages/peopso/peopso.component';
+import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 
 
 
@@ -30,6 +31,7 @@ import { PeopsoComponent } from './pages/peopso/peopso.component';
     PoComponent,
     FacultiesComponent,
     PeopsoComponent,
+    SyllabusComponent,
   ],
   imports: [
     BrowserModule,

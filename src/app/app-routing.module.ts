@@ -5,6 +5,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { PoComponent } from './pages/po/po.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
 import { PeopsoComponent } from './pages/peopso/peopso.component';
+import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'po', component: PoComponent},
   { path: 'faculties', component: FacultiesComponent},
   { path: 'peopso',component: PeopsoComponent},
+  { path: 'syllabus',component: SyllabusComponent},
 ];
 
 @NgModule({

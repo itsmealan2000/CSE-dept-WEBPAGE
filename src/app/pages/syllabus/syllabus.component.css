@@ -1,0 +1,45 @@
+button {
+    display: table-row-group;
+    grid-template: repeat(4, 0.5fr);
+    padding-top: 100px;
+    margin-left: 250px;
+    margin-top: 70px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+.syllabus{
+    margin-top: 100px;
+    margin-left: 700px;
+    padding-top: 25px;
+    color:#224e7d;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.main{
+    background: linear-gradient(
+    217deg,
+    rgba(96, 150, 180, 1),
+    rgba(255, 0, 0, 0) 70.71%
+  ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
+  height: 100vh;
+  overflow: hidden;
+}
+.a{
+    text-decoration: none;
+}
