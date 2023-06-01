@@ -1,4 +1,50 @@
 .text{
     padding-top: 80px;
-    margin: 25px;
+    background: linear-gradient(
+        217deg,
+        rgba(96, 150, 180, 1),
+        rgba(255, 0, 0, 0) 70.71%
+      ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
 }
+.main{
+    background: linear-gradient(
+      217deg,
+      rgba(96, 150, 180, 1),
+      rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
+    padding-top:150px;
+    overflow: hidden;
+  }
+  .programoutcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .po{
+    display: flex;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* height: 200px; */
+    background-image: linear-gradient(to right,#36454F , #000000);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    font-weight: 600;
+    padding: 20px;
+  }
+  .head{
+    margin-right: 0;
+    color: #224e7d;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  li{
+    padding: 5px;
+  }

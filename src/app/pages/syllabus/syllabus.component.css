@@ -1,0 +1,63 @@
+button {
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 100px;
+    margin: 100px;
+    color: #000000;
+    background-color: #f0f0f0;
+    padding: 20px 30px;
+    border: solid #606d7a 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 30px;
+    transition : 857ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+   }
+   button:hover{
+    transition : 857ms;
+    padding: 30px 50px;
+    transform : translateY(-0px);
+    background-color: #023e8a;
+    color: #f2f2f2;
+    border: solid 2px #0080ff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+.syllabus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#224e7d;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.main{
+    background: linear-gradient(
+    217deg,
+    rgba(96, 150, 180, 1),
+    rgba(255, 0, 0, 0) 70.71%
+  ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
+    height:100%;
+    width: 100%;
+    margin-top: 100px;
+}
+.odd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.even{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

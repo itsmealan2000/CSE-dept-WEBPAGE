@@ -15,9 +15,14 @@ import { PoComponent } from './pages/po/po.component';
 import { AluminiComponent } from './pages/alumini/alumini.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
 import { PeopsoComponent } from './pages/peopso/peopso.component';
+<<<<<<< HEAD
 import { PacementsComponent } from './pages/pacements/pacements.component';
 
 
+=======
+import { SyllabusComponent } from './pages/syllabus/syllabus.component';
+import { FooterComponent } from './units/footer/footer.component';
+>>>>>>> c1e522ec0105b6debb05400700e66b512469e620
 
 
 
@@ -35,7 +40,12 @@ import { PacementsComponent } from './pages/pacements/pacements.component';
     AluminiComponent,
     FacultiesComponent,
     PeopsoComponent,
+<<<<<<< HEAD
     PacementsComponent,
+=======
+    SyllabusComponent,
+    FooterComponent,
+>>>>>>> c1e522ec0105b6debb05400700e66b512469e620
   ],
   imports: [
     BrowserModule,
