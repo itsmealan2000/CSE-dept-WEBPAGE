@@ -12,3 +12,45 @@
     transform: scale(1.05);
     /* Add any other desired styling for the pop-up effect */
   }
+
+  .Recruiters{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Righteous', cursive;
+    color: rgb(69, 68, 68);
+  }
+
+  /* company recruitments */
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .company-logo {
+    position: relative;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .company-logo img {
+    width: 100px;
+    height: 100px;
+  }
+  /*
+  .popup {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    visibility: hidden;
+  }
+  
+  .company-logo:hover .popup {
+    visibility: visible;
+  } */

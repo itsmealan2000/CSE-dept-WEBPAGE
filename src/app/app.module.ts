@@ -15,6 +15,8 @@ import { PoComponent } from './pages/po/po.component';
 import { AluminiComponent } from './pages/alumini/alumini.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
 import { PeopsoComponent } from './pages/peopso/peopso.component';
+import { PacementsComponent } from './pages/pacements/pacements.component';
+
 
 
 
@@ -33,6 +35,7 @@ import { PeopsoComponent } from './pages/peopso/peopso.component';
     AluminiComponent,
     FacultiesComponent,
     PeopsoComponent,
+    PacementsComponent,
   ],
   imports: [
     BrowserModule,
