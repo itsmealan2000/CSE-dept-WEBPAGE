@@ -1,45 +1,34 @@
-.about{
+.main {
+  position: relative;
+  height: 700px;
+}
+
+.about {
+  display: flex;
   color: white;
-  width: 50%;
+  width: 60%;
   font-family: 'Noto Sans JP';
   font-size: 20px;
   text-align: center;
   font-weight: 600;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  margin-left: 50%;
-  border-radius: 25px;
-  position: absolute;
+  padding:20px;
+  margin-top: 100px;
+  margin-left: 70%;
+  border-radius: 20px;
   top: 50%;
-  z-index: 1;
+  z-index: 1000;
   background: linear-gradient(to right, rgba(189, 195, 199, 0.5), rgba(44, 62, 80, 0.5));
-
+  transform: translateX(-50%);
+  position: relative;
+  z-index: 2;
 }
-.com{
-  color: white;
-  width: 40%;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 65px;
-
+.carousel {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
-  margin-left: 50px;
-  margin-bottom: 50px;
   z-index: 1;
-  /* background: linear-gradient(to right, rgba(255, 255, 255, 0.319), rgba(255, 255, 255, 0.664)); */
-
 }
-p{
-  padding: 0px;
-  margin: 0px;
-  color: orangered;
-}
-.carousel{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  overflow-x: hidden;
+app-footer {
+  position: relative;
+  z-index: 2;
 }

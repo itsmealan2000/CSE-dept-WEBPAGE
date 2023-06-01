@@ -15,6 +15,7 @@ import { PoComponent } from './pages/po/po.component';
 import { FacultiesComponent } from './pages/faculties/faculties.component';
 import { PeopsoComponent } from './pages/peopso/peopso.component';
 import { SyllabusComponent } from './pages/syllabus/syllabus.component';
+import { FooterComponent } from './units/footer/footer.component';
 
 
 
@@ -32,6 +33,7 @@ import { SyllabusComponent } from './pages/syllabus/syllabus.component';
     FacultiesComponent,
     PeopsoComponent,
     SyllabusComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

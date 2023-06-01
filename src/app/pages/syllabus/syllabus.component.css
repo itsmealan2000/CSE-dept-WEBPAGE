@@ -1,19 +1,27 @@
 button {
-    display: table-row-group;
-    grid-template: repeat(4, 0.5fr);
-    padding-top: 100px;
-    margin-left: 250px;
-    margin-top: 70px;
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
     font-family: 'Bebas Neue', sans-serif;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-    box-shadow: 6px 6px 12px #c5c5c5,
-                -6px -6px 12px #ffffff;
+    padding-top: 100px;
+    margin: 100px;
+    color: #000000;
+    background-color: #f0f0f0;
+    padding: 20px 30px;
+    border: solid #606d7a 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 30px;
+    transition : 857ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+   }
+   button:hover{
+    transition : 857ms;
+    padding: 30px 50px;
+    transform : translateY(-0px);
+    background-color: #023e8a;
+    color: #f2f2f2;
+    border: solid 2px #0080ff;
    }
    
    button:active {
@@ -23,9 +31,9 @@ button {
    }
 
 .syllabus{
-    margin-top: 100px;
-    margin-left: 700px;
-    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#224e7d;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -37,9 +45,19 @@ button {
     rgba(255, 0, 0, 0) 70.71%
   ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
   linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
-  height: 100vh;
-  overflow: hidden;
+    height:100%;
+    width: 100%;
+    margin-top: 100px;
 }
-.a{
-    text-decoration: none;
+.odd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.even{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
