@@ -8,6 +8,7 @@ import { PeopsoComponent } from './pages/peopso/peopso.component';
 import { AluminiComponent } from './pages/alumini/alumini.component';
 import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 import { DeptlibComponent } from  './pages/deptlib/deptlib.component';
+import { StdlistComponent } from './pages/stdlist/stdlist.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'alumini',component: AluminiComponent},
   { path: 'syllabus',component: SyllabusComponent},
   { path: 'deptlib',component:DeptlibComponent},
+  { path: 'stdlist',component:StdlistComponent},
 
 ];
 
