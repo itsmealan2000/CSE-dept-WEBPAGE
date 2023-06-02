@@ -23,6 +23,7 @@ import { DeptlibComponent } from './pages/deptlib/deptlib.component';
 
 import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 import { FooterComponent } from './units/footer/footer.component';
+import { StdlistComponent } from './pages/stdlist/stdlist.component';
 
 
 
@@ -46,6 +47,7 @@ DeptlibComponent,
 
     SyllabusComponent,
     FooterComponent,
+    StdlistComponent,
   ],
   imports: [
     BrowserModule,
