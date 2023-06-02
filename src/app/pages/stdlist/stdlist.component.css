@@ -12,7 +12,9 @@
 .head{
   color: #224e7d;
   font-family: 'Bebas Neue', sans-serif;
-  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button {

@@ -24,6 +24,10 @@ import { DeptlibComponent } from './pages/deptlib/deptlib.component';
 import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 import { FooterComponent } from './units/footer/footer.component';
 import { StdlistComponent } from './pages/stdlist/stdlist.component';
+import { FirstyearComponent } from './pages/stdlist/firstyear/firstyear.component';
+import { SecondyearComponent } from './pages/stdlist/secondyear/secondyear.component';
+import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.component';
+import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
 
 
 
@@ -48,6 +52,10 @@ DeptlibComponent,
     SyllabusComponent,
     FooterComponent,
     StdlistComponent,
+    FirstyearComponent,
+    SecondyearComponent,
+    ThirdyearComponent,
+    FourthyearComponent,
   ],
   imports: [
     BrowserModule,
