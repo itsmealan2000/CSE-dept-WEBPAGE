@@ -42,9 +42,7 @@ footer{
 .socials a{
     text-decoration: none;
     color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
-
+    padding: 10px;
     border-radius: 50%;
 
 }

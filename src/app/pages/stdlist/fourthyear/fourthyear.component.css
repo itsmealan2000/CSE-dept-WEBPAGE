@@ -1,0 +1,23 @@
+.main{
+    background: linear-gradient(
+        217deg,
+        rgba(96, 150, 180, 1),
+        rgba(255, 0, 0, 0) 70.71%
+      ), linear-gradient(127deg, rgba(147, 191, 207, 1), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 51, 102, 1), rgba(0, 0, 255, 0) 70.71%);
+      height: 100vh;
+      padding-top:150px;
+      overflow: hidden;
+ }
+.head{
+  color: #224e7d;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

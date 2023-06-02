@@ -9,7 +9,10 @@ import { AluminiComponent } from './pages/alumini/alumini.component';
 import { SyllabusComponent } from './pages/syllabus/syllabus.component';
 import { DeptlibComponent } from  './pages/deptlib/deptlib.component';
 import { StdlistComponent } from './pages/stdlist/stdlist.component';
-
+import { FirstyearComponent } from './pages/stdlist/firstyear/firstyear.component';
+import { SecondyearComponent } from './pages/stdlist/secondyear/secondyear.component';
+import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.component';
+import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   { path: 'vm', component: VmComponent},
@@ -20,7 +23,10 @@ const routes: Routes = [
   { path: 'syllabus',component: SyllabusComponent},
   { path: 'deptlib',component:DeptlibComponent},
   { path: 'stdlist',component:StdlistComponent},
-
+  { path: 'first',component:FirstyearComponent},
+  { path: 'second',component:SecondyearComponent},
+  { path: 'third',component:ThirdyearComponent},
+  { path: 'fourth',component:FourthyearComponent},
 ];
 
 @NgModule({
