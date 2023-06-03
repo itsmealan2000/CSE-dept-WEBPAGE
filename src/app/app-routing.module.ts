@@ -14,6 +14,7 @@ import { SecondyearComponent } from './pages/stdlist/secondyear/secondyear.compo
 import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.component';
 import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
+import { EventsComponent } from './pages/events/events.component';
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   { path: 'vm', component: VmComponent},
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'third',component:ThirdyearComponent},
   { path: 'fourth',component:FourthyearComponent},
   { path: 'resources',component:ResourcesComponent},
+  { path: 'events',component:EventsComponent},
 ];
 
 @NgModule({
