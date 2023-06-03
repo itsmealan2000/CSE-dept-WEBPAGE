@@ -13,6 +13,7 @@ import { FirstyearComponent } from './pages/stdlist/firstyear/firstyear.componen
 import { SecondyearComponent } from './pages/stdlist/secondyear/secondyear.component';
 import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.component';
 import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
+import { ResourcesComponent } from './pages/resources/resources.component';
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   { path: 'vm', component: VmComponent},
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'second',component:SecondyearComponent},
   { path: 'third',component:ThirdyearComponent},
   { path: 'fourth',component:FourthyearComponent},
+  { path: 'resources',component:ResourcesComponent},
 ];
 
 @NgModule({

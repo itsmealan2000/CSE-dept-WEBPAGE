@@ -28,6 +28,7 @@ import { FirstyearComponent } from './pages/stdlist/firstyear/firstyear.componen
 import { SecondyearComponent } from './pages/stdlist/secondyear/secondyear.component';
 import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.component';
 import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
+import { ResourcesComponent } from './pages/resources/resources.component';
 
 
 
@@ -56,6 +57,7 @@ DeptlibComponent,
     SecondyearComponent,
     ThirdyearComponent,
     FourthyearComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,
