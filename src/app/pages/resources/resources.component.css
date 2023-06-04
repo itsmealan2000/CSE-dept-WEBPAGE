@@ -1,0 +1,13 @@
+.dropdown{
+    padding-top: 60px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+   
+    
+}
+.body {
+    display: flex;
+    justify-content:space-evenly;
+  }
+
